@@ -20,4 +20,12 @@ Le manifeste recense les fichiers d'origine, leurs tailles et leurs empreintes S
 
 ## Utilisation dans le launcher
 
-Les anciens fichiers GB, GBC, GBA et NDS sont conservés. L'ajout des nouvelles archives à la release ne configure pas automatiquement leur présence dans le catalogue du launcher ni le téléchargement et la reconstitution des archives découpées. Les fichiers restaurés peuvent être importés dans un logiciel compatible.
+Le catalogue du launcher comprend les 31 jeux et la mise à jour de Z-A. Les archives 3DS/Switch sont téléchargées, vérifiées et extraites automatiquement. Pour Z-A, le menu propose le téléchargement simultané du jeu et de sa mise à jour 2.0.2.
+
+## Mods 60 FPS
+
+Les sept packs sélectionnés sont dans la [release `mods-60fps`](https://github.com/Tennosei5804/pokemon-launcher-roms/releases/tag/mods-60fps), accompagnés de leur manifeste et des crédits de Fl4sh9174. Les fichiers des jeux restent dans la release `roms`.
+
+Dans le launcher 0.9.2, ouvrir **⋯ → Mods 60 FPS**, puis **Télécharger le mod** ou **Télécharger et activer J1/J2**. La désactivation conserve les autres mods et les sauvegardes. Les téléchargements utilisent la session GitHub CLI autorisée sur ce dépôt.
+
+Les versions ciblées et l'identifiant de compilation doivent correspondre au jeu lancé. Épée/Bouclier sont proposés comme expérimentaux ; leur pack est distinct du patch complet KM-Editor. Les performances à 60 FPS restent dépendantes du jeu et du PC.
